@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <form id="form">
+
+        <div>
+            <label for="username">Username</label>
+            <input type="number" name="user" id="username" min="0">
+        </div>
+
+        <div>
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="password">
+        </div>
+
+        <div>
+            <label for="">Role</label>
+            <select name="role" id="role">
+                <option value="4">Seleciona un role</option>
+                <option value="1">Admin</option>
+                <option value="2">Guest</option>
+            </select>
+        </div>
+
+        <button type="submit">Log In</button>
+    </form>
+
+
+    <!-- scripts -->
+    <script src="./assets/js/form.js" />
+</body>
+
+</html>
